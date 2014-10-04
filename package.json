@@ -1,7 +1,7 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "PhotoTrips Example",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "Sample Application for class",
   "keywords": [
     "OpenShift",
     "Node.js",
@@ -9,11 +9,11 @@
     "openshift"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Steven King",
+    "email": "steven.king@unc.edu",
+    "url": "http://steventking.com/"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "http://www.steventking.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/openshift/origin-server"
@@ -25,7 +25,15 @@
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "~4.0.0",
+        "serve-favicon": "~1.0.0",
+        "morgan": "~1.0.0",
+        "cookie-parser": "~1.0.1",
+        "body-parser": "~1.0.0",
+        "debug": "~0.7.4",
+        "jade": "*",
+        "mongodb": "*",
+        "mongoskin": "*"
   },
   "devDependencies": {},
   "bundleDependencies": [],
